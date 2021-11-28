@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Test Cases">
+	<test name="Login_BothCorrect">
+		<classes>
+			<class name="practiceFramework.BothCorrect" />
+		</classes>
+	</test>
+	<test name="Login_BothInCorrect">
+		<classes>
+			<class name="practiceFramework.BothIncorrect" />
+		</classes>
+	</test>
+	<test name="Login_UsernameCorrect">
+		<classes>
+			<class name="practiceFramework.UsernameCorrect" />
+		</classes>
+	</test>
+	<test name="Login_PasswordCorrect">
+		<classes>
+			<class name="practiceFramework.PasswordCorrect" />
+		</classes>
+	</test>
+</suite>
